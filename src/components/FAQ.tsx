@@ -6,8 +6,8 @@ import { ChevronDown } from 'lucide-react';
 
 const faqs = [
   {
-    question: "Como funciona o pagamento da quota semanal?",
-    answer: "A quota é deduzida automaticamente dos seus ganhos gerados nas plataformas Uber e Bolt. O valor restante é transferido integralmente para o seu IBAN todas as semanas. Tudo de forma transparente e sem taxas escondidas."
+    question: "Como funciona o pagamento da taxa semanal?",
+    answer: "A taxa de gestão (9% da sua faturação, com um mínimo de 35€ semanais) é deduzida automaticamente dos ganhos gerados nas plataformas Uber e Bolt. O valor restante é transferido integralmente para o seu IBAN todas as semanas. Tudo de forma transparente e sem taxas escondidas."
   },
   {
     question: "Posso usar a minha própria viatura?",
@@ -15,7 +15,7 @@ const faqs = [
   },
   {
     question: "O que acontece se eu quiser ir de férias?",
-    answer: "Sendo um parceiro independente, tem total liberdade para definir os seus horários e pausas. Para pausas prolongadas (como férias), pedimos apenas que nos avise com alguma antecedência para ajustarmos a gestão do seu perfil e a cobrança do slot."
+    answer: "Sendo um parceiro, tem total liberdade para definir os seus horários e pausas. Para pausas prolongadas (como férias), pedimos apenas que nos avise com alguma antecedência para ajustarmos a gestão do seu perfil e a cobrança da taxa mínima."
   },
   {
     question: "Quanto tempo demora até começar a faturar?",

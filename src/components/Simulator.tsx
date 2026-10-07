@@ -7,10 +7,11 @@ export default function Simulator() {
   
   // Exemplo de cálculo (ajustável)
   const averagePerHour = 15; // 15€/hora
-  const weeklyQuota = 35; // 35€/semana
   
   const grossIncome = hours * averagePerHour;
-  const netIncome = grossIncome - weeklyQuota;
+  // Taxa da empresa: 9% da faturação com mínimo de 35€
+  const companyFee = Math.max(35, Math.round(grossIncome * 0.09));
+  const netIncome = grossIncome - companyFee;
 
   return (
     <div className="bg-white dark:bg-slate-900 rounded-3xl p-6 sm:p-8 md:p-12 text-slate-800 dark:text-slate-100 shadow-2xl dark:shadow-white/5 relative border border-slate-100 dark:border-slate-800 transition-colors duration-300">
@@ -42,8 +43,8 @@ export default function Simulator() {
           <p className="text-2xl font-bold text-slate-800 dark:text-slate-100">~ {grossIncome}€</p>
         </div>
         <div>
-          <p className="text-sm text-slate-500 dark:text-slate-400 font-medium">Quota Semanal</p>
-          <p className="text-2xl font-bold text-red-500 dark:text-red-400">- {weeklyQuota}€</p>
+          <p className="text-sm text-slate-500 dark:text-slate-400 font-medium">Taxa de Gestão</p>
+          <p className="text-2xl font-bold text-red-500 dark:text-red-400">- {companyFee}€</p>
         </div>
         <div className="bg-slate-50 dark:bg-slate-800 p-4 rounded-xl border border-slate-100 dark:border-slate-700 transition-colors">
           <p className="text-sm text-slate-500 dark:text-slate-400 font-medium">Lucro Líquido Est.</p>

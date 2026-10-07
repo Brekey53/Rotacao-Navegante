@@ -87,7 +87,7 @@ export default function Home() {
                 "O rumo certo para o seu destino."
               </motion.p>
               <motion.p variants={fadeInUp} className="text-lg md:text-xl text-slate-300 max-w-2xl mb-10 leading-relaxed">
-                Junte-se à Rotação Navegante, utilize a nossa licença de Operador TVDE por uma quota fixa semanal e fique com 100% dos seus lucros.
+                Junte-se à Rotação Navegante, utilize a nossa licença de Operador TVDE com uma taxa justa de apenas 9% (mín. 35€) e impulsione os seus lucros.
               </motion.p>
               <motion.a 
                 variants={fadeInUp}
@@ -140,7 +140,7 @@ export default function Home() {
               <motion.div variants={fadeInUp} className="bg-slate-50 dark:bg-slate-900 p-8 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm dark:shadow-white/5 border-l-4 border-l-[#F1B631] flex flex-col justify-center h-full hover:shadow-md dark:hover:shadow-white/10 transition-all duration-300">
                 <h3 className="text-xl font-bold text-[#0D2b45] dark:text-white mb-4">Como funciona na Rotação Navegante?</h3>
                 <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed font-medium">
-                  Em vez de criar a sua própria empresa ou abrir atividade nas Finanças, trabalha com um contrato legal através da nossa empresa. Mantém o carro em seu nome, faz os seus próprios horários e utiliza a nossa licença pagando apenas uma <span className="text-[#0D2b45] dark:text-white font-bold">taxa fixa (quota semanal) de gestão</span>.
+                  Em vez de criar a sua própria empresa ou abrir atividade nas Finanças, trabalha com um contrato legal através da nossa empresa. Mantém o carro em seu nome, faz os seus próprios horários e utiliza a nossa licença pagando apenas uma <span className="text-[#0D2b45] dark:text-white font-bold">taxa de gestão de 9%</span> da faturação (mínimo de 35€/semana).
                 </p>
               </motion.div>
 
@@ -200,8 +200,8 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-[#0D2b45] dark:text-white mb-3">Lucro Transparente</h3>
-                <p className="text-slate-600 dark:text-slate-300 flex-grow">Fica com os seus lucros das viagens. Não cobramos percentagens, apenas a quota semanal fixa.</p>
+                <h3 className="text-xl font-bold text-[#0D2b45] dark:text-white mb-3">Taxa Justa e Transparente</h3>
+                <p className="text-slate-600 dark:text-slate-300 flex-grow">Cobramos apenas 9% sobre a sua faturação (com um mínimo de 35€ por semana). Sem taxas escondidas, o resto do lucro é totalmente seu.</p>
               </motion.div>
 
               {/* Card 2 */}
@@ -261,7 +261,7 @@ export default function Home() {
             className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
           >
             <motion.h2 variants={fadeInUp} className="text-3xl md:text-4xl font-bold mb-4">Simule os seus rendimentos</motion.h2>
-            <motion.p variants={fadeInUp} className="text-slate-300 mb-12 max-w-2xl mx-auto text-lg">Veja o quanto pode ganhar por semana trabalhando com a nossa licença, pagando apenas a quota fixa.</motion.p>
+            <motion.p variants={fadeInUp} className="text-slate-300 mb-12 max-w-2xl mx-auto text-lg">Veja o quanto pode ganhar por semana trabalhando com a nossa licença, pagando apenas a nossa taxa de gestão justa.</motion.p>
             
             <motion.div variants={fadeInUp}>
               <Simulator />

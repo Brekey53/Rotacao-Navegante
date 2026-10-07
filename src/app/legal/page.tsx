@@ -45,7 +45,7 @@ export default function LegalPage() {
 
               <p><strong>1.3. Obrigações do Motorista:</strong> O motorista compromete-se a prestar um serviço com urbanidade perante os passageiros, zelando pelo bom estado da viatura e respeitando rigorosamente as normas das plataformas TVDE. O seu enquadramento legal e proteção contributiva são assegurados pelo contrato formalizado com a Rotação Navegante.</p>
 
-              <p><strong>1.4. Quota Semanal e Pagamentos:</strong> O motorista concorda com o pagamento de uma quota semanal fixa pela utilização da licença de Operador da Rotação Navegante. O valor bruto gerado nas plataformas (após deduzidas as taxas das próprias plataformas e a quota semanal da Rotação Navegante) será transferido semanalmente para o IBAN fornecido pelo motorista.</p>
+              <p><strong>1.4. Taxa de Gestão e Pagamentos:</strong> O motorista concorda com o pagamento de uma taxa de gestão correspondente a 9% da sua faturação bruta nas plataformas (com um valor mínimo cobrado de 35€ semanais) pela utilização da licença de Operador da Rotação Navegante. O valor restante gerado (após deduzidas as taxas das próprias plataformas e a nossa taxa de gestão) será transferido semanalmente para o IBAN fornecido pelo motorista.</p>
               
               <p><strong>1.5. Resolução:</strong> O acordo pode ser cessado por qualquer das partes mediante aviso prévio, sem prejuízo da liquidação de quaisquer valores em dívida até à data de cessação.</p>
             </div>
